@@ -1,0 +1,302 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To check Login credentials are valid",
+        "description": "",
+        "id": "loga-search;to-check-login-credentials-are-valid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20638665200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the URL in the browser",
+            "match": {
+              "location": "Login_def.open_the_URL_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7234081700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click signin",
+            "match": {
+              "location": "Login_def.click_signin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39716862800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter valid Usernameandpassword",
+            "match": {
+              "location": "Login_def.enter_valid_Usernameandpassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5862934100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on signin",
+            "match": {
+              "location": "Login_def.click_on_Signin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC_01"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "To check valid Search option",
+        "description": "",
+        "id": "loga-search;to-check-valid-search-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15433774700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Open the URL in browser",
+            "match": {
+              "location": "Validsearch_def.open_the_URL_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 254707400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the valid value in Search option",
+            "match": {
+              "location": "Validsearch_def.enter_the_valid_value_in_Search_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7462272100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click on enter",
+            "match": {
+              "location": "Validsearch_def.click_on_enter()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@TC_02"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "To check if searchbox shows related searches",
+        "description": "",
+        "id": "loga-search;to-check-if-searchbox-shows-related-searches",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18424494300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Open the website url in browser",
+            "match": {
+              "location": "Relatedsearch_def.open_the_website_url_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 286987300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter the partial value in search option",
+            "match": {
+              "location": "Relatedsearch_def.enter_the_partial_value_in_search_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9107466200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Suggestions are displayed under search tab",
+            "match": {
+              "location": "Relatedsearch_def.suggestions_are_displayed_under_search_tab()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@TC_03"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "To check if items can be searched by size,color,compositions and style",
+        "description": "",
+        "id": "loga-search;to-check-if-items-can-be-searched-by-size,color,compositions-and-style",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13621293800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Open the site url in browser",
+            "match": {
+              "location": "Searchbyfeatures_def.open_the_site_url_in_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2969400900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the user search the product by size,color",
+            "match": {
+              "location": "Searchbyfeatures_def.the_user_search_the_product_by_size_color()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297782700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "the user search the product by compositions,style",
+            "match": {
+              "location": "Searchbyfeatures_def.the_user_search_the_product_by_compositions_style()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4686444200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "products are displayed",
+            "match": {
+              "location": "Searchbyfeatures_def.products_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@TC_04"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "To check if website displays more info when more option is clicked",
+        "description": "",
+        "id": "loga-search;to-check-if-website-displays-more-info-when-more-option-is-clicked",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16913011600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Open the web url in the  browser",
+            "match": {
+              "location": "Moreinfo_def.open_the_web_url_in_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1497432200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "the user clicks the more button",
+            "match": {
+              "location": "Moreinfo_def.the_user_clicks_the_more_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6914563900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "the website navigates to the next page and displays the additional information",
+            "match": {
+              "location": "Moreinfo_def.the_website_navigates_to_the_next_page_and_displays_the_additional_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 30,
+            "name": "@TC_05"
+          }
+        ]
+      }
+    ],
+    "name": "Loga_search",
+    "description": "",
+    "id": "loga-search",
+    "keyword": "Feature",
+    "uri": "src/main/resources/Feature/search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Search_Feature"
+      }
+    ]
+  }
+]
